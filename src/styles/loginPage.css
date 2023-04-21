@@ -1,0 +1,63 @@
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 40vw;
+  background-color: #f1f1f1;
+}
+
+#title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#InputsAndButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#UsernamePassword {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+#UserText,
+#PasswordText {
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.error-message {
+  color: red;
+  margin-top: 1rem;
+}

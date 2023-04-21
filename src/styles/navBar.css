@@ -1,0 +1,65 @@
+/* base styles */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(0, 116, 25);
+  height: 5vh;
+}
+
+.links {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-right: 5vw;
+}
+
+.links p {
+  margin: 0;
+  -webkit-text-fill-color: black;
+}
+
+.link {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+#Title {
+  padding-left: 10vw;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#button {
+  background-color: rgb(0, 116, 25);
+  border: none;
+  cursor: pointer;
+  font-size: medium;
+  transform: translateY(-1px);
+}
+.user-info p {
+  padding-left: 20px;
+}
+.user-info button {
+  border: none;
+  background-color: rgb(0, 116, 25);
+  -webkit-text-fill-color: black;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}

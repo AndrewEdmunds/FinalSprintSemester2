@@ -1,0 +1,110 @@
+.content {
+  background-color: rgb(77, 134, 89);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 92vh;
+}
+
+#picNbuttonsBorder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+}
+
+#picNbuttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+  max-height: 60vh;
+  overflow: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+#picNbuttons img {
+  border-radius: 15px;
+  max-width: 100%;
+  height: 30vh;
+  width: 25vw;
+}
+
+.pic-slider-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.pic-slider-button:hover {
+  background-color: #3e8e41;
+}
+
+.pic-slider-like {
+  margin-bottom: 2rem;
+}
+
+.pic-slider-dislike {
+  margin-top: 2rem;
+}
+
+#comparasion {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#RecentlyLikedBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+#RecentlyLikedPicText {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#RecentlyLikedCounter {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#RecentlyLikedPic {
+  width: 10vw;
+  height: 15vh;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+}
+
+#pic-slider-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
